@@ -6,10 +6,10 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
-#import "messageBridge.h"
+#import "MessageBridge.h"
 
 
-@implementation messageBridge
+@implementation MessageBridge
 RCT_EXPORT_MODULE();
 
 RCT_REMAP_METHOD(getMessage,:(NSString *)message

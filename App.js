@@ -13,8 +13,8 @@ import { NativeEventEmitter, NativeModules } from 'react-native';
 
 
 
-const { messageBridge } = NativeModules;
-const messageBridgeEmitter = new NativeEventEmitter(messageBridge);
+const { MessageBridge } = NativeModules;
+const messageBridgeEmitter = new NativeEventEmitter(MessageBridge);
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -40,7 +40,7 @@ export default class App extends Component<Props> {
 
   async measureLayout() {
     try {
-      var data = await messageBridge.getMessage('Get Message');
+      var data = await MessageBridge.getMessage('Get Message');
       this.setState({ "getMessage": data.message });
       console.log(data);
     } catch (e) {
@@ -53,11 +53,11 @@ export default class App extends Component<Props> {
   }
 
   showMessage() {
-    messageBridge.show('Show Message');
+    MessageBridge.show('Show Message');
   }
 
   getPushMessage() {
-    messageBridge.pushMessage('Push Message');
+    MessageBridge.pushMessage('Push Message');
   }
 
 

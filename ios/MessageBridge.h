@@ -9,11 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
-#import <React/RCTLog.h>
 #import <Foundation/Foundation.h>
 
 
-@interface messageBridge : RCTEventEmitter<RCTBridgeModule>
+@interface MessageBridge : RCTEventEmitter<RCTBridgeModule>
 
 @end
 

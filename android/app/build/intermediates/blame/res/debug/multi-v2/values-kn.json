@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yudongcao/Desktop/crossPlatformDemo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
+            "outputFile": "/Users/yudongcao/Developer/github/RNNativeModules/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/Users/yudongcao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6bbe64e97d3b1e9cdda39de722363e57/res/values-kn/values-kn.xml",

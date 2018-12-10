@@ -38,7 +38,7 @@
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		C3BDF23F21BAE2280077CB0C /* messageBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF23E21BAE2280077CB0C /* messageBridge.m */; };
+		C3BDF23F21BAE2280077CB0C /* MessageBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF23E21BAE2280077CB0C /* MessageBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -344,8 +344,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		C3BDF23D21BAE2280077CB0C /* messageBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageBridge.h; sourceTree = "<group>"; };
-		C3BDF23E21BAE2280077CB0C /* messageBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = messageBridge.m; sourceTree = "<group>"; };
+		C3BDF23D21BAE2280077CB0C /* MessageBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageBridge.h; sourceTree = "<group>"; };
+		C3BDF23E21BAE2280077CB0C /* MessageBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,8 +491,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				C3BDF23D21BAE2280077CB0C /* messageBridge.h */,
-				C3BDF23E21BAE2280077CB0C /* messageBridge.m */,
+				C3BDF23D21BAE2280077CB0C /* MessageBridge.h */,
+				C3BDF23E21BAE2280077CB0C /* MessageBridge.m */,
 			);
 			name = crossPlatformDemo;
 			sourceTree = "<group>";
@@ -1118,7 +1118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BDF23F21BAE2280077CB0C /* messageBridge.m in Sources */,
+				C3BDF23F21BAE2280077CB0C /* MessageBridge.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
