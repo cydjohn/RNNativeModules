@@ -25,11 +25,6 @@ export default class App extends Component<Props> {
 
 
   componentDidMount() {
-    // DeviceEventEmitter.addListener('PushMessage', (data) => {
-    //   this.setState({ "pushMessage": data.message });
-    //   console.log(data);
-    // });
-
     messageBridgeEmitter.addListener(
       'PushMessage',
       (data) => {
@@ -38,7 +33,7 @@ export default class App extends Component<Props> {
       });
   }
 
-  async measureLayout() {
+  async getMessage() {
     try {
       var data = await MessageBridge.getMessage('Get Message');
       this.setState({ "getMessage": data.message });
@@ -46,10 +41,6 @@ export default class App extends Component<Props> {
     } catch (e) {
       console.error(e);
     }
-  }
-
-  getMessage() {
-    this.measureLayout();
   }
 
   showMessage() {
